@@ -1,0 +1,1 @@
+// Static Class (Pass Message -> Get Object)
