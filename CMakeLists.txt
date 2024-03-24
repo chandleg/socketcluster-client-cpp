@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.10) # Example minimum version
 set(CMAKE_CXX_STANDARD 17)
 
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fprofile-arcs -ftest-coverage")
+set(CMAKE_CXX_FLAGS " ${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
+
+
 project(SocketClusterClientCPP)
 
 include(FetchContent)
