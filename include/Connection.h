@@ -4,8 +4,6 @@
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Weverything" //ignore warnings in external libs
 
-#define ASIO_STANDALONE
-
 #include "websocketpp/client.hpp"
 #include "websocketpp/config/asio_no_tls_client.hpp"
 
